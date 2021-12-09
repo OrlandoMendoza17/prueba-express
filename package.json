@@ -1,0 +1,29 @@
+{
+  "name": "prueba-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrlandoMendoza17/prueba-express.git"
+  },
+  "keywords": [],
+  "author": "Orlando Mendoza <ommv.17@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrlandoMendoza17/prueba-express/issues"
+  },
+  "homepage": "https://github.com/OrlandoMendoza17/prueba-express#readme",
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.4",
+    "@babel/register": "7.16.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
