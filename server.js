@@ -39,7 +39,9 @@ app.get("*", (request, response) => {
 
 app.listen(port, (error) => {
 
-  if (error) console.log("Ha habido un error mi negro :'(")
-  else console.log(`The server is running on ${port} port`)
+  if (error) 
+    console.log("Ha habido un error mi negro :'(")
+  else 
+    console.log(`The server is running on ${port} port`)
 
 })
