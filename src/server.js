@@ -4,7 +4,9 @@ const port = 3000;
 
 const app = express();
 
-app.get("*", (request, response) => {
+const router = express.Router()
+
+router.get("*", (request, response) => {
   response.send(`
     <!DOCTYPE html>
     <html>
@@ -36,6 +38,8 @@ app.get("*", (request, response) => {
     </html>
   `)
 })
+
+app.use("/", router)
 
 app.listen(port, (error) => {
 
