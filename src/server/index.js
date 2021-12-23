@@ -12,6 +12,8 @@ const app = express();
 
 const router = express.Router()
 
+console.log("Pequeño cambio")
+
 app.use((request, response, next) => {
   if (!request.hashManifest) request.hashManifest = getManifest()
   next();
