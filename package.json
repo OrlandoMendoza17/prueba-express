@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/index.js",
-    "build": "node ./src/index.js"
+    "start": "nodemon ./index.js",
+    "build": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,8 @@
   },
   "homepage": "https://github.com/OrlandoMendoza17/prueba-express#readme",
   "devDependencies": {
-    "@babel/core": "7.16.0",
-    "@babel/preset-env": "7.16.4",
-    "@babel/register": "7.16.0"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "4.17.1"
   }
 }
