@@ -1,4 +1,4 @@
-import express from "express"
+const express = require("express")
 
 const port = 3000;
 
@@ -6,7 +6,7 @@ const app = express();
 
 const router = express.Router()
 
-router.get("/", (response, request)=>{
+router.get("/", (request, response)=>{
   response.json({
     gretting: "hola"
   })
